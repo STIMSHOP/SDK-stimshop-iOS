@@ -50,21 +50,21 @@ In the class you want to use to perform signal detection, declare the delegate w
 
     + `didDetectWavWithCode:` is called whenever a correct and authorized code has been detected in the sound signal :
 
-        /*! Called when a correct code has been detected in the sound signal
-         * \param code The detected code
-         */
-        - (void)didDetectWavWithCode:(NSString *)code {
-            NSLog(@"CODE DETECTED : %@", code);
-        }
+                /*! Called when a correct code has been detected in the sound signal
+                 * \param code The detected code
+                 */
+                - (void)didDetectWavWithCode:(NSString *)code {
+                        NSLog(@"CODE DETECTED : %@", code);
+                }
 
     + `didStopWithErrorMessage:` is called when an error occurred during takeoff :
 
-        /*! Called when an error occurred during take off.
-         * \param message The corresponding error message
-         */
-        - (void)didStopWithErrorMessage:(NSString *)message {
-            NSLog(@"AN ERROR OCCURRED : %@", message);
-        }
+                /*! Called when an error occurred during take off.
+                 * \param message The corresponding error message
+                 */
+                - (void)didStopWithErrorMessage:(NSString *)message {
+                        NSLog(@"AN ERROR OCCURRED : %@", message);
+                }
 
 Here are the two possible error messages :
         + `stimshopErrorInvalidAPIKey` : "API key is not valid anymore, starting canceled"
@@ -74,20 +74,20 @@ Here are the two possible error messages :
 
     + `didStopDetecting` is called when the SDK stopped listening to signals :
 
-        /*! Called when the SDK stopped listening to signals
-         */
-        - (void)didStopDetecting {
-            // Do something
-        }
+                /*! Called when the SDK stopped listening to signals
+                 */
+                - (void)didStopDetecting {
+                        // Do something
+                }
 
     + `didReceiveWinUrl:` is called whenever the detected code is related to an asset :
 
-        /*! Called when the detected code is corresponding to an asset url
-         * \param url The string representing the url of the asset
-         */
-        - (void)didReceiveWinUrl:(NSString *)url {
-            NSLog(@"ASSET URL : %@", url);
-        }
+                /*! Called when the detected code is corresponding to an asset url
+                 * \param url The string representing the url of the asset
+                 */
+                - (void)didReceiveWinUrl:(NSString *)url {
+                        NSLog(@"ASSET URL : %@", url);
+                }
 
 ### Everything's now ready, let's start detecting !
 
