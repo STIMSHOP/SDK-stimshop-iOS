@@ -8,6 +8,9 @@
 
 @import Foundation;
 
+static const NSString *stimshopErrorInvalidAPIKey = @"API key is not valid anymore, starting canceled";
+static const NSString *stimshopErrorInvalidID = @"Invalid ID, starting canceled";
+
 typedef enum : NSUInteger {
     channelOne = (1 << 0), // => 00000001, 17kHz<->18kHz
     channelTwo = (1 << 1), // => 00000010, 18kHz<->19kHz
