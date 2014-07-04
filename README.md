@@ -66,7 +66,7 @@ In the class you want to use to perform signal detection, declare the delegate w
                         NSLog(@"AN ERROR OCCURRED : %@", message);
                 }
 
-Here are the two possible error messages :
+        Here are the two possible error messages :
         + `stimshopErrorInvalidAPIKey` : "API key is not valid anymore, starting canceled"
         + `stimshopErrorInvalidID` : "Invalid ID, starting canceled"
 
