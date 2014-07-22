@@ -7,6 +7,7 @@ This SDK implements Stimshop's signal detection protocol.
 ### Import the files to your xcode project
 
 Import the header file **StimshopSDK.h** and the library file **libStimshop_SDK.a** into your iOS application project.
+(Don't forget to add iOS frameworks)
 
 ### Configure your API key
 
