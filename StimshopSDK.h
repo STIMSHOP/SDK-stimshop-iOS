@@ -6,8 +6,6 @@
 //  Copyright (c) 2014 STIMShop. All rights reserved.
 //
 
-@import Foundation;
-
 static const NSString *stimshopErrorInvalidAPIKey = @"API key is not valid anymore, starting canceled";
 static const NSString *stimshopErrorInvalidID = @"Invalid ID, starting canceled";
 
