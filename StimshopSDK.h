@@ -53,6 +53,7 @@ typedef enum : NSUInteger {
 /*! Returns YES if the correct code is detected.
  */
 - (BOOL)isDetecting;
+- (NSNumber*)nbCodeInDBB;
 
 @end
 
