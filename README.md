@@ -7,7 +7,7 @@ This SDK implements Stimshop's signal detection protocol.
 ### Import the files to your xcode project
 
 Import the header file **StimshopSDK.h** and the library file **libStimshop_SDK.a** into your iOS application project.
-(Don't forget to add iOS frameworks)
+(Don't forget to add iOS frameworks, among them AdSupport.framework)
 
 ### Configure your API key
 
@@ -102,7 +102,7 @@ When done, the SDK can be stopped by calling the `stopListener` method on the St
 
 The `isListening` method notifies whether the SDK is listening to signal or not.
 
-The `isDetecting` method notifies whether the SDK has detected a corred code.
+The `isDetecting` method notifies whether the SDK has detected a correct code.
 
 ## For an example, feel free to check out the [Stimshop demo app](https://github.com/STIMSHOP/SDK-demo-iOS)
 
