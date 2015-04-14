@@ -6,8 +6,11 @@ This SDK implements Stimshop's signal detection protocol.
 
 ### Import the files to your xcode project
 
-Import the header file **StimshopSDK.h** and the library file **libStimshop_SDK.a** into your iOS application project.
-(Don't forget to add iOS frameworks, among them AdSupport.framework)
+Import the header file **StimshopSDK.h** and the library file **libStimshop_SDK.a** and **signal.momd** (remove .mom extension) into your iOS application project. 
+(Don't forget to add iOS frameworks amongs them : Coredata, AudioToolbox, AVFoundation, SystemConfiguration and Accelerate)
+
+(remove .mom extension) into your iOS application project. 
+(Don't forget to add iOS frameworks amongs them : Coredata, AudioToolbox, AVFoundation, SystemConfiguration and Accelerate)
 
 ### Configure your API key
 
