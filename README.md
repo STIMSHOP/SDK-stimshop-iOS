@@ -11,7 +11,7 @@ Import the header file **StimshopSDK.h** and the library file **libStimshop_SDK.
 
 ### Set your Info.plist file
 
-Import our Info.plist file in order to allow your application to use the microphone and connect to our API.
+Import our **Info.plist** file in order to allow your application to use the microphone and connect to our API.
 
 ### Configure your API key
 
