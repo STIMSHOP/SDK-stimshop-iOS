@@ -6,8 +6,12 @@ This SDK implements Stimshop's signal detection protocol.
 
 ### Import the files to your xcode project
 
-Import the header file **StimshopSDK.h** and the library file **libStimshop_SDK.a** and **signal.momd** (remove .mom extension) into your iOS application project. 
+Import the header file **StimshopSDK.h** and the library file **libStimshop_SDK.a** and **signal.momd** (remove .mom extension) into your iOS application project.
 (Don't forget to add iOS frameworks amongs them : Coredata, AudioToolbox, AVFoundation, SystemConfiguration and Accelerate)
+
+### Set your Info.plist file
+
+Import our Info.plist file in order to allow your application to use the microphone and connect to our API.
 
 ### Configure your API key
 
