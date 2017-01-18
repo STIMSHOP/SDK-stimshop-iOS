@@ -13,6 +13,10 @@ Import the header file **StimshopSDK.h** and the library file **libStimshop_SDK.
 
 Import our **Info.plist** file in order to allow your application to use the microphone and connect to our API.
 
+### Import Headers
+
+Add **#import <Foundation/Foundation.h>** and **#import "StimshopSDK.h"** to your header file
+
 ### Configure your API key
 
 We assume you already have your API key, allowing you to use Stimshop services.
